@@ -1,0 +1,25 @@
+PODS:
+  - CocoaLumberjack/Core (3.8.5)
+  - CocoaLumberjack/Swift (3.8.5):
+    - CocoaLumberjack/Core
+  - FFLumberjack (1.0.0):
+    - CocoaLumberjack/Swift (= 3.8.5)
+
+DEPENDENCIES:
+  - FFLumberjack (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  FFLumberjack:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  FFLumberjack: 2af697d668a75d68ba8b83eac75ba88547918df7
+
+PODFILE CHECKSUM: 2b2a84eebad47e0945b5e179f6631f95471eb34f
+
+COCOAPODS: 1.15.2

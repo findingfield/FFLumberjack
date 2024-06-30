@@ -1,0 +1,6 @@
+framework module FFLumberjack {
+  umbrella header "FFLumberjack-umbrella.h"
+
+  export *
+  module * { export * }
+}
